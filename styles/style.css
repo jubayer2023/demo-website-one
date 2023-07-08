@@ -109,6 +109,52 @@ nav li a {
 
 }
 
-.banner-container .Download{
+.banner-container .Download {
     margin-right: 15px;
+}
+
+/* ========= about detail ========= */
+
+.container-width {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-secction {}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-container {
+    padding: 70px 0;
+    background-color: #FFF8F3;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
+    margin: 70px auto;
+}
+
+.about-itmem, .about-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about-description {
+    text-align: center;
+    padding: 30px 80px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.about-container li{
+    list-style: none;
+    text-align: center;
+}
+.about-details ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
