@@ -132,29 +132,66 @@ nav li a {
 .about-container {
     padding: 70px 0;
     background-color: #FFF8F3;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    ;
     margin: 70px auto;
 }
 
-.about-itmem, .about-description {
+.about-itmem,
+.about-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
+
 .about-description {
     text-align: center;
     padding: 30px 80px;
     font-weight: 400;
     font-size: 18px;
 }
-.about-container li{
+
+.about-container li {
     list-style: none;
     text-align: center;
 }
-.about-details ul{
+
+.about-details ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+
+/* ==========What i do===========  */
+
+.skill-box img {
+    width: 40px;
+    height: 40px;
+}
+
+.skill-title {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 0px;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+.skill-detail {
+    color: #757575;
+}
+
+.skill-box{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px 15px;
 }
