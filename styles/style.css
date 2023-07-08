@@ -9,21 +9,31 @@ body {
 }
 
 /*  ====== header style ====== */
-header{
+header {
     background-color: #FFF8F3;
-    
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+    background-size: 600px, 80px;
+    padding-left: 20px;
 }
+
+
+/*  ====== nav style ====== */
+
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    padding-top: 50px;
 }
 
 nav>ul {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .nav-title {
@@ -38,12 +48,67 @@ nav .bold {
 
 nav li {
     list-style: none;
+    margin-left: 30px;
 
 }
 
 nav li a {
     text-decoration: none;
     color: #474747;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 400;
+}
+
+.btn-primary {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid #FD6E0A;
+    border-radius: 3px;
+    color: white;
+    font-weight: 800;
+}
+
+
+
+/* banner stylyling */
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.banner-container img {
+    width: 450px;
+}
+
+.banner-content {
+    max-width: 500px;
+    margin-left: 10%;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.main-heading {
+    color: #181818;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    margin: 15px 0;
+
+}
+
+.banner-container .Download{
+    margin-right: 15px;
 }
