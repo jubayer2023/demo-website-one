@@ -1,8 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
 
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
+}
+
+/*  ====== header style ====== */
+header{
+    background-color: #FFF8F3;
+    
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav .bold {
+    color: #FD6E0A;
+}
+
+nav li {
+    list-style: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
 }
